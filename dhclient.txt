@@ -1,0 +1,2 @@
+sudo dhclient -v -r    # Release any current DHCP lease
+sudo dhclient -v -4 -d -nw -cf /dev/null -pf /var/run/dhclient.eth0.pid eth0
